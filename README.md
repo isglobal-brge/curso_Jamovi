@@ -5,6 +5,7 @@
 **Juan R González** (ORCID: https://orcid.org/0000-0003-3267-2146)
 
 Bioinformatics Research Group in Epidemiology, Barcelona Institute for Global Health [ISGlobal](http://www.isglobal.org)
+
 Departament de Matemàtiques, Universitat Autónoma de Barcelona [UAB](http://www.uab.cat)
 
 BRGE: http://brge.isglobal.org
