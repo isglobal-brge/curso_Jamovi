@@ -16,8 +16,9 @@
 
 1. `continente` una variable que contenga el continente (América, Africa, Europa, Asia) en función del pais (variable `pais`).
 2. `edad1sex_rec` que contenga una variable que indique si la mujer tuvo su primera relación sexual (variable `edad1sex`) antes de los 15 años o no (<15).
-3. `
+3. `nembara_zscore` que contenga el número de embarazos (variable `nembara`) standarizada.
 
 
 # Estadísica descriptiva
 
+**Ejercicio 4** 
