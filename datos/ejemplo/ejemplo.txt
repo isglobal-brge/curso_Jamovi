@@ -1,0 +1,15 @@
+Grupo	Altura	Peso	Sexo	Calorias
+A	1.81	72	Hombre	1890
+A	1.72	66	Hombre	1345
+B	1.79	81	Hombre	2345
+A	1.69	64	Mujer	1678
+B	1.92	88	Hombre	2100
+B	1.87	85	Hombre	2091
+A	1.85	80	Hombre	2243
+A	1.74	69	Hombre	1890
+A	1.62	55	Mujer	1789
+B	1.58	52	Mujer	1901
+B	1.73	75	Hombre	2034
+A	1.78	85	Hombre	1999
+B	1.65	60	Hombre	2045
+A	1.72	80	Hombre	2230
