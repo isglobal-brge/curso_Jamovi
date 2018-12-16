@@ -20,17 +20,17 @@ BRGE: http://brge.isglobal.org
 ## Día 1: Estadística descriptiva
 
 > * Variables categóricas
-    1. Tablas de frecuencias
-    2. Gráficos de barras
+   1. Tablas de frecuencias
+   2. Gráficos de barras
 
 > * Variables continuas
-    1. Estadísicos de posición, dispersión y forma
-    2. Histogramas, Boxplots, Dotplots y Violin Plots
+   1. Estadísicos de posición, dispersión y forma
+   2. Histogramas, Boxplots, Dotplots y Violin Plots
 
 > * Descriptiva bivariante
-    1. 2 variables categóricas
-    2. 1 variable continua y 1 categórica
-    3. 2 variables categóricas
+   1. 2 variables categóricas
+   2. 1 variable continua y 1 categórica
+   3. 2 variables categóricas
 
 ## Día 2: Pruebas de hipótesis
 
