@@ -21,7 +21,7 @@
 
 # EstadÃ­sica descriptiva
 
-**Ejercicio 4** Contesta a las siguientes preguntas usando las variables que has obtenido tras el ejercicio 1 
+**Ejercicio 4** Contesta a las siguientes preguntas usando las variables que has obtenido tras realizar el ejercicio 1:
 
 1. Describe la variable `sexo`.
 2. Describe la variables `IPAQ`  e `IPAQ_ln`. ¿Qué conclusión podemos obtener de este análisis descriptivo?
@@ -32,7 +32,7 @@
 6. ¿Qué conclusiones podemos obtener de los tres gráficos anteriores?
 7. ¿Qué tipo de relación existe entre el `IMC_cat` y el sexo de los participantes? 
 
-**Ejercicio 5** 
+**Ejercicio 5**  Contesta a las siguientes preguntas usando las variables que has obtenido tras realizar el ejercicio 2:
 
 1. ¿Qué pais aporta más casos de cáncer al estudio? ¿y qué continente?
 2. ¿Cuál es la frecuencia de casos en Filipinas? ¿Y de controles?
