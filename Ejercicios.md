@@ -2,8 +2,8 @@
 
 **Ejercicio 1:** Importa los datos `Test_Condicion_Fisica.txt` a Jamovi, crea las siguientes variables y guarda el fichero con las nuevas variables en formato Jamovi:
 
-1. `Abdominals_2`que contenga el n√∫mero de abdominales en 10 segundos
-2. `Velocitat_zscore` que contenga la velocidad estandarizada (resta la media y divide por la desviaci√≥n t√≠pica). 
+1. `Abdominals_2`que contenga el n˙mero de abdominales en 10 segundos
+2. `Velocitat_zscore` que contenga la velocidad estandarizada (resta la media y divide por la desviaciÛn tÌpica). 
 3. `Salt_zscore` que contenga la distancia del salto estandarizado. 
 4. `IPAQ_ln` que contenga el logaritmo neperiano del IPAQ.
 5. `IMC_cat` que sea`:
@@ -12,19 +12,19 @@
 > * `normal` para 20>=IMC<25
 > * `alto` para IMC>=25
 
-**Ejercicio 2:** Importa los datos `multicentric.txt` a Jamovi. Estos datos contienen la informaci√≥n de un estudio de casos y controles (variable `status`) para conocer los factores de riesgo para el c√°ncer de Cervix. Crea las siguientes variables y guarda el fichero final en formato Jamovi:
+**Ejercicio 2:** Importa los datos `multicentric.txt` a Jamovi. Estos datos contienen la informaciÛn de un estudio de casos y controles (variable `status`) para conocer los factores de riesgo para el c·ncer de Cervix. Crea las siguientes variables y guarda el fichero final en formato Jamovi:
 
-1. `continente` una variable que contenga el continente (Am√©rica, Africa, Europa, Asia) en funci√≥n del pais (variable `pais`).
-2. `edad1sex_rec` que contenga una variable que indique si la mujer tuvo su primera relaci√≥n sexual (variable `edad1sex`) antes de los 15 a√±os o no (<15).
-3. `nembara_zscore` que contenga el n√∫mero de embarazos (variable `nembara`) standarizada.
-
-
-**Soluci√≥n ejercicio 1** 
-
-IF(pais="Brasil" or pais="Colombia" or pais="Peru", "America", IF(pais="Espa√±a", "Europa", IF(pais="Tailandia" or pais="Filipinas", "Asia", IF(pais="Marruecos", "Africa"))))
+1. `continente` una variable que contenga el continente (AmÈrica, Africa, Europa, Asia) en funciÛn del pais (variable `pais`).
+2. `edad1sex_rec` que contenga una variable que indique si la mujer tuvo su primera relaciÛn sexual (variable `edad1sex`) antes de los 15 aÒos o no (<15).
+3. `nembara_zscore` que contenga el n˙mero de embarazos (variable `nembara`) standarizada.
 
 
-# Estad√≠sica descriptiva
+**SoluciÛn ejercicio 1** 
+
+IF(pais="Brasil" or pais="Colombia" or pais="Peru", "America", IF(pais="EspaÒa", "Europa", IF(pais="Tailandia" or pais="Filipinas", "Asia", IF(pais="Marruecos", "Africa"))))
+
+
+# EstadÌsica descriptiva
 
 **Ejercicio 4** Contesta a las siguientes preguntas usando las variables que has obtenido tras realizar el ejercicio 1:
 
