@@ -4,7 +4,7 @@
 
 1. `Abdominals_2`que contenga el nÃºmero de abdominales en 10 segundos
 2. `Velocitat_zscore` que contenga la velocidad estandarizada (resta la media y divide por la desviaciÃ³n tÃ­pica). 
-3. `Salt_zscore` que sea el nÃºmero de saltos estandarizados. 
+3. `Salt_zscore` que contenga la distancia del salto estandarizado. 
 4. `IPAQ_ln` que contenga el logaritmo neperiano del IPAQ.
 5. `IMC_cat` que sea`:
 
@@ -21,4 +21,23 @@
 
 # EstadÃ­sica descriptiva
 
-**Ejercicio 4** 
+**Ejercicio 4** Contesta a las siguientes preguntas usando las variables que has obtenido tras el ejercicio 1 
+
+1. Describe la variable `sexo`.
+2. Describe la variables `IPAQ`  e `IPAQ_ln`. ¿Qué conclusión podemos obtener de este análisis descriptivo?
+2. ¿Qué variable es más dispersa, el númeo de saltos o el de abdominales?
+3. ¿Qué número de abdominales debería realizar un hombre para estar en el percentil 95? ¿y una mujer?
+4. Describe gráficamente la variable `IPAQ` para hombres y mujeres.
+5. Describe gráficamente la variable `IPAQ` e `IPAQ_ln`según la variable `IMC_cat`. 
+6. ¿Qué conclusiones podemos obtener de los tres gráficos anteriores?
+7. ¿Qué tipo de relación existe entre el `IMC_cat` y el sexo de los participantes? 
+
+**Ejercicio 5** 
+
+1. ¿Qué pais aporta más casos de cáncer al estudio? ¿y qué continente?
+2. ¿Cuál es la frecuencia de casos en Filipinas? ¿Y de controles?
+3. Describe gráfica y numéricamente la variable `edad1sex` para casos y controles. ¿Qué conclusión se puede extraer?
+4. ¿Cuál es la relación entre la variable `vph` (positivo, negativo) y `status` (caso, control)?
+5. ¿Qué relación existe entre la variable `edad1sex` y `edademba`?
+6. ¿Cuál es el rango intercuartílico para la variable `nembara`?
+7. ¿Cuál es el percentil 90 de la variable `edad1sex` en casos? ¿y en controles?
