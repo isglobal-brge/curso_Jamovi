@@ -19,25 +19,30 @@
 3. `nembara_zscore` que contenga el nÃºmero de embarazos (variable `nembara`) standarizada.
 
 
+**SoluciÃ³n ejercicio 1** 
+
+IF(pais="Brasil" or pais="Colombia" or pais="Peru", "America", IF(pais="EspaÃ±a", "Europa", IF(pais="Tailandia" or pais="Filipinas", "Asia", IF(pais="Marruecos", "Africa"))))
+
+
 # EstadÃ­sica descriptiva
 
 **Ejercicio 4** Contesta a las siguientes preguntas usando las variables que has obtenido tras realizar el ejercicio 1:
 
 1. Describe la variable `sexo`.
-2. Describe la variables `IPAQ`  e `IPAQ_ln`. ¿Qué conclusión podemos obtener de este análisis descriptivo?
-2. ¿Qué variable es más dispersa, el númeo de saltos o el de abdominales?
-3. ¿Qué número de abdominales debería realizar un hombre para estar en el percentil 95? ¿y una mujer?
-4. Describe gráficamente la variable `IPAQ` para hombres y mujeres.
-5. Describe gráficamente la variable `IPAQ` e `IPAQ_ln`según la variable `IMC_cat`. 
-6. ¿Qué conclusiones podemos obtener de los tres gráficos anteriores?
-7. ¿Qué tipo de relación existe entre el `IMC_cat` y el sexo de los participantes? 
+2. Describe la variables `IPAQ`  e `IPAQ_ln`. ?Qu? conclusi?n podemos obtener de este an?lisis descriptivo?
+2. ?Qu? variable es m?s dispersa, el n?meo de saltos o el de abdominales?
+3. ?Qu? n?mero de abdominales deber?a realizar un hombre para estar en el percentil 95? ?y una mujer?
+4. Describe gr?ficamente la variable `IPAQ` para hombres y mujeres.
+5. Describe gr?ficamente la variable `IPAQ` e `IPAQ_ln`seg?n la variable `IMC_cat`. 
+6. ?Qu? conclusiones podemos obtener de los tres gr?ficos anteriores?
+7. ?Qu? tipo de relaci?n existe entre el `IMC_cat` y el sexo de los participantes? 
 
 **Ejercicio 5**  Contesta a las siguientes preguntas usando las variables que has obtenido tras realizar el ejercicio 2:
 
-1. ¿Qué pais aporta más casos de cáncer al estudio? ¿y qué continente?
-2. ¿Cuál es la frecuencia de casos en Filipinas? ¿Y de controles?
-3. Describe gráfica y numéricamente la variable `edad1sex` para casos y controles. ¿Qué conclusión se puede extraer?
-4. ¿Cuál es la relación entre la variable `vph` (positivo, negativo) y `status` (caso, control)?
-5. ¿Qué relación existe entre la variable `edad1sex` y `edademba`?
-6. ¿Cuál es el rango intercuartílico para la variable `nembara`?
-7. ¿Cuál es el percentil 90 de la variable `edad1sex` en casos? ¿y en controles?
+1. ?Qu? pais aporta m?s casos de c?ncer al estudio? ?y qu? continente?
+2. ?Cu?l es la frecuencia de casos en Filipinas? ?Y de controles?
+3. Describe gr?fica y num?ricamente la variable `edad1sex` para casos y controles. ?Qu? conclusi?n se puede extraer?
+4. ?Cu?l es la relaci?n entre la variable `vph` (positivo, negativo) y `status` (caso, control)?
+5. ?Qu? relaci?n existe entre la variable `edad1sex` y `edademba`?
+6. ?Cu?l es el rango intercuart?lico para la variable `nembara`?
+7. ?Cu?l es el percentil 90 de la variable `edad1sex` en casos? ?y en controles?
