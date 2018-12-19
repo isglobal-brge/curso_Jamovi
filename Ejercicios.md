@@ -49,3 +49,27 @@ IF(pais="Brasil" or pais="Colombia" or pais="Perú", "America", IF(pais="España
 5. ¿Qué relación existe entre la variable `edad1sex` y `edademba`?
 6. ¿Cuál es el rango intercuartílico para la variable `nembara`?
 7. ¿Cuál es el percentil 90 de la variable `edad1sex` en casos? ¿Y en controles?
+
+# Pruebas de hipótesis
+
+Contesta a las siguientes preguntas usando los datos del estudio `multicentric.txt`
+
+1. ¿Hay más embarazos (variable `nembara`) en las mujeres de este estudio que el que hay en Europa según las últimas estadísticas (2.3)? ¿Y en España?
+2. ¿Existen diferencias estadísticamente significativas de la variable `edad1sex` entre casos y controles (variable `status`) ? ¿Qué test estadístico debes usar para contestar a esta pregunta científica?
+3. ¿Hay asociación entre la variable `vph` y `status`?
+4. ¿Esisten diferencias estadísticamente significativas entre el número de embarazos (variable `nembara`) y el diagnóstico de cáncer (variable `status`)?
+
+
+Contesta a las siguientes preguntas usando la base de datos `creatina.txt` 
+
+1. ¿Existe asociación entre la suplementación con creatina (variable `group`) y la mejora del rendimiento (variable `improvement`)?
+
+2. ¿Existen diferencias entre alguno de los datos bioquímicos (variables `FL`,	`RW`,	`CL`,	`CW`,	`BD`)y la suplementación con creatina?
+
+# ANOVA
+
+Un estudio pretende determinar si cierta actividad celular (variable `Activity`) se asocia con el sexo (variable `Sex`: male, female) y una variante genética (variable `Genotype`: GG, GA, AA) de un gen relacionado con la vía metabólica de dicha actividad celular. Para contestar a esta pregunta, se han analizado 36 individuos cuya información se puede encontrar en el fichero `cellActivity.txt`. ¿Qué conclusiones podemos obtener tras analizar los datos?
+
+# Regresión logística
+
+Investigadores están interesados en conocer los factores asociados a la mortalidad aguda (30 días) en pacientes operados del corazón (variable `estat`: viu, mort). El fichero `riscar.txt` contiene información para 19 factores medidos en 500 individuos. Utilizando modelos de regresión logística, identifica aquellos factores que mejor predicen la mortalidad a 30 días.
