@@ -2,8 +2,8 @@
 
 **Ejercicio 1:** Importa los datos `Test_Condicion_Fisica.txt` a Jamovi, crea las siguientes variables y guarda el fichero con las nuevas variables en formato Jamovi:
 
-1. `Abdominals_2`que contenga el número de abdominales en 10 segundos
-2. `Velocitat_zscore` que contenga la velocidad estandarizada (resta la media y divide por la desviación típica). 
+1. `Abdominals_2`que contenga el nÃºmero de abdominales en 10 segundos
+2. `Velocitat_zscore` que contenga la velocidad estandarizada (resta la media y divide por el error estÃ¡ndar). 
 3. `Salt_zscore` que contenga la distancia del salto estandarizado. 
 4. `IPAQ_ln` que contenga el logaritmo neperiano del IPAQ.
 5. `IMC_cat` que sea`:
@@ -12,37 +12,40 @@
 > * `normal` para 20>=IMC<25
 > * `alto` para IMC>=25
 
-**Ejercicio 2:** Importa los datos `multicentric.txt` a Jamovi. Estos datos contienen la información de un estudio de casos y controles (variable `status`) para conocer los factores de riesgo para el cáncer de Cervix. Crea las siguientes variables y guarda el fichero final en formato Jamovi:
+**Ejercicio 2:** Importa los datos `multicentric.txt` a Jamovi. Estos datos contienen la informaciÃ³n de un estudio de casos y controles (variable `status`) para conocer los factores de riesgo para el cÃ¡ncer de Cervix. Crea las siguientes variables y guarda el fichero final en formato Jamovi:
 
-1. `continente` una variable que contenga el continente (América, Africa, Europa, Asia) en función del pais (variable `pais`).
-2. `edad1sex_rec` que contenga una variable que indique si la mujer tuvo su primera relación sexual (variable `edad1sex`) antes de los 15 años o no (<15).
-3. `nembara_zscore` que contenga el número de embarazos (variable `nembara`) standarizada.
+1. `continente` una variable que contenga el continente (AmÃ©rica, Africa, Europa, Asia) en funciÃ³n del pais (variable `pais`).
 
+**SoluciÃ³n** 
 
-**Solución ejercicio 1** 
-
-IF(pais="Brasil" or pais="Colombia" or pais="Peru", "America", IF(pais="España", "Europa", IF(pais="Tailandia" or pais="Filipinas", "Asia", IF(pais="Marruecos", "Africa"))))
+IF(pais="Brasil" or pais="Colombia" or pais="PerÃº", "America", IF(pais="EspaÃ±a", "Europa", IF(pais="Tailandia" or pais="Filipinas", "Asia", IF(pais="Marruecos", "Africa"))))
 
 
-# Estadísica descriptiva
+2. `edad1sex_rec` que contenga una variable que indique si la mujer tuvo su primera relaciÃ³n sexual (variable `edad1sex`) antes de los 15 aÃ±os o no (<15).
+3. `nembara_zscore` que contenga el nÃºmero de embarazos (variable `nembara`) standarizada.
+
+
+
+
+# EstadÃ­stica descriptiva
 
 **Ejercicio 4** Contesta a las siguientes preguntas usando las variables que has obtenido tras realizar el ejercicio 1:
 
 1. Describe la variable `sexo`.
-2. Describe la variables `IPAQ`  e `IPAQ_ln`. ¿Qué conclusión podemos obtener de este análisis descriptivo?
-2. ¿Qué variable es más dispersa, el número de saltos o el de abdominales?
-3. ¿Qué número de abdominales debería realizar un hombre para estar en el percentil 95? ¿y una mujer?
-4. Describe gráficamente la variable `IPAQ` para hombres y mujeres.
-5. Describe gráficamente la variable `IPAQ` e `IPAQ_ln` según la variable `IMC_cat`. 
-6. ¿Qué conclusiones podemos obtener de los tres gráficos anteriores?
-7. ¿Qué tipo de relación existe entre el `IMC_cat` y el sexo de los participantes? 
+2. Describe la variables `IPAQ`  e `IPAQ_ln`. Â¿QuÃ© conclusiÃ³n podemos obtener de este anÃ¡lisis descriptivo?
+2. Â¿QuÃ© variable es mÃ¡s dispersa, el nÃºmero de saltos o el de abdominales?
+3. Â¿QuÃ© nÃºmero de abdominales deberÃ­a realizar un hombre para estar en el percentil 95? Â¿y una mujer?
+4. Describe grÃ¡ficamente la variable `IPAQ` para hombres y mujeres.
+5. Describe grÃ¡ficamente la variable `IPAQ` e `IPAQ_ln` segÃºn la variable `IMC_cat`. 
+6. Â¿QuÃ© conclusiones podemos obtener de los tres grÃ¡ficos anteriores?
+7. Â¿QuÃ© tipo de relaciÃ³n existe entre el `IMC_cat` y el sexo de los participantes? 
 
 **Ejercicio 5**  Contesta a las siguientes preguntas usando las variables que has obtenido tras realizar el ejercicio 2:
 
-1. ¿Qué pais aporta más casos de cáncer (variable `status`) al estudio? 
-2. ¿Cuál es la frecuencia de casos en Filipinas? ¿Y de controles?
-3. Describe gráfica y numéricamente la variable `edad1sex` para casos y controles. ¿Qué conclusión se puede extraer?
-4. ¿Cuál es la relación entre la variable `vph` (positivo, negativo) y `status` (caso, control)?
-5. ¿Qué relación existe entre la variable `edad1sex` y `edademba`?
-6. ¿Cuál es el rango intercuartílico para la variable `nembara`?
-7. ¿Cuál es el percentil 90 de la variable `edad1sex` en casos? ¿Y en controles?
+1. Â¿QuÃ© pais aporta mÃ¡s casos de cÃ¡ncer (variable `status`) al estudio? 
+2. Â¿CuÃ¡l es la frecuencia de casos en Filipinas? Â¿Y de controles?
+3. Describe grÃ¡fica y numÃ©ricamente la variable `edad1sex` para casos y controles. Â¿QuÃ© conclusiÃ³n se puede extraer?
+4. Â¿CuÃ¡l es la relaciÃ³n entre la variable `vph` (positivo, negativo) y `status` (caso, control)?
+5. Â¿QuÃ© relaciÃ³n existe entre la variable `edad1sex` y `edademba`?
+6. Â¿CuÃ¡l es el rango intercuartÃ­lico para la variable `nembara`?
+7. Â¿CuÃ¡l es el percentil 90 de la variable `edad1sex` en casos? Â¿Y en controles?
